@@ -22,8 +22,4 @@ customer['toppings'] = ['chocolate sprinkles', 'wafer straws', 'gummy bears'];
 customer['futureFlavors'] = 'mango';
 customer['todaysPurchaseCost'] = 5.32;
 
-for (const property in customer) {
-	console.log('test', property);
-}
-
-console.table(customer);
+console.log(Object.keys(customer));
